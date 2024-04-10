@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eee2UL1mLIl8L9PnZEBtVqdsEHWgAFnyR9OWW6gP6vc=",
+  "Source": "dotnetJenkinDocker",
+  "BasePath": "_content/dotnetJenkinDocker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

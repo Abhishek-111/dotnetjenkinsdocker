@@ -7,7 +7,7 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["dotnetJenkinDocker.csproj", "."]
-RUN dotnet restore "dotnetJenkinDocker/dotnetJenkinDocker.csproj"
+RUN dotnet restore "./dotnetJenkinDocker.csproj"
 COPY . .
 WORKDIR "/src/."
 RUN dotnet build "dotnetJenkinDocker.csproj" -c Release -o /app/build
